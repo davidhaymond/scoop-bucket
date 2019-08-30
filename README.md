@@ -1,2 +1,2 @@
 # scoop-bucket
-My personal scoop bucket
+My personal scoop bucket.

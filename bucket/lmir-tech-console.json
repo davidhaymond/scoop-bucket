@@ -1,0 +1,33 @@
+{
+    "version": "7.12.3325",
+    "description": "Start, perform, and manage support sessions with remote devices.",
+    "homepage": "https://www.logmeinrescue.com/",
+    "license": "Proprietary",
+    "url": "https://secure.logmeinrescue.com/TechConsole/DesktopApp/Download.aspx#/dl.7z",
+    "bin": [
+        [
+            "LMIRTechConsole.exe",
+            "lmir"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "pre_install": [
+                "Get-ChildItem -Path \"$dir\\x64_*\" | Rename-Item -NewName {$_.Name -replace 'x64_', ''}",
+                "Get-ChildItem -Path \"$dir\\x86_*\" | Remove-Item"
+            ]
+        },
+        "32bit": {
+            "pre_install": [
+                "Get-ChildItem -Path \"$dir\\x86_*\" | Rename-Item -NewName {$_.Name -replace 'x86_', ''}",
+                "Get-ChildItem -Path \"$dir\\x64_*\" | Remove-Item"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "LMIRTechConsole.exe",
+            "LogMeIn Rescue Technician Console"
+        ]
+    ]
+}
