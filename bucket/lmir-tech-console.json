@@ -4,12 +4,6 @@
     "homepage": "https://www.logmeinrescue.com/",
     "license": "Proprietary",
     "url": "https://secure.logmeinrescue.com/TechConsole/DesktopApp/Download.aspx#/dl.7z",
-    "bin": [
-        [
-            "LMIRTechConsole.exe",
-            "lmir"
-        ]
-    ],
     "architecture": {
         "64bit": {
             "pre_install": [
