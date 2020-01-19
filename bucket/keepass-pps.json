@@ -3,8 +3,8 @@
     "description": "Access Pleasant Password Server from the desktop.",
     "homepage": "https://pleasantsolutions.com/info/pleasant-password-server/d-user-access-basics/keepass-desktop-client/",
     "license": "Proprietary|GPL-2.0-or-later",
-    "url": "http://assets.davidhaymond.dev/scoop-bucket/keepass-pps.7z",
-    "hash": "e2527335366db58a680b45117fdbc1eb9a1386004768b5af9604c52d6c20f8ed",
+    "url": "http://assets.davidhaymond.dev/scoop/keepass-pps-7.8.3.0.7z",
+    "hash": "b736d467d7f30ce348e7527aaa28035efe1d184ecf52ecfc4a3d894d045bb1e8",
     "extract_dir": "pps",
     "shortcuts": [
         [
